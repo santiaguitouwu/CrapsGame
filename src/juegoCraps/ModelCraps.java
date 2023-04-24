@@ -11,7 +11,7 @@ package juegoCraps;
  * @version 1.0.0
  **/
 
-public class modelCraps {
+public class ModelCraps {
     private Dado dado1, dado2;
     private int tiro, punto, estado, flag;
     private String estadoToString;
@@ -20,7 +20,7 @@ public class modelCraps {
     /**
     *Class constructor
     */
-    public modelCraps(){
+    public ModelCraps(){
         dado1 = new Dado();
         dado2 = new Dado();
         caras = new int[2];
